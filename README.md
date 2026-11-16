@@ -208,7 +208,7 @@ Results are fully reproducible by running the training notebook.
 
 The matrix shows the true labels on the vertical axis and the predicted labels on the horizontal axis.
 
-![ResNet50 confusion matrix](images/Screenshot%202026-11-16%20204226.png)
+![ResNet50 confusion matrix](images/confusion.png)
 
 ---
 
