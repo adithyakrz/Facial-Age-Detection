@@ -60,7 +60,7 @@ It integrates **face detection**, **transfer learning–based image classificati
 
 ## System Requirements
 
-* **Python:** 3.8 or higher (recommended: 3.8–3.11)
+* **Python:** 3.9 or higher (recommended: 3.9–3.12)
 * **Git** (for cloning the repository)
 * **pip** (Python package manager)
 
@@ -79,7 +79,7 @@ pip --version
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/Springboard-Mentor-DermalScan/AI-DermalScan_Batch9/tree/Adithya-Krishna
+git clone https://github.com/adithyakrz/Facial-Age-Detection
 cd <PROJECT_FOLDER_NAME>
 ```
 
@@ -203,6 +203,12 @@ To train a model:
 * Best-performing models are stored in the `models/` directory
 
 Results are fully reproducible by running the training notebook.
+
+### ResNet50 Confusion Matrix
+
+The matrix shows the true labels on the vertical axis and the predicted labels on the horizontal axis.
+
+![ResNet50 confusion matrix](images/Screenshot%202026-11-16%20204226.png)
 
 ---
 
